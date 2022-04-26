@@ -1,0 +1,107 @@
+.container {
+    padding: 8px;
+    border: 2px dotted lightblue;
+  }
+
+  .box {
+    min-width: 40px;
+    min-height: 40px;
+    padding: 4px;
+    border: 2px dotted lightcoral;
+  }
+
+  .inner-box {
+    min-width: 40px;
+    min-height: 40px;
+    border: 2px dotted lightgreen;
+  }
+
+  /* Don't touch this END */
+
+  /* Write CSS Here */
+
+  .two-column-grid__expand-two {
+    display: grid;
+    grid-template-columns: 1fr 6.5fr;
+    column-gap: 5px;
+  }
+
+  .logo {
+      min-width: 40px;
+      min-height: 40px;
+      padding: 4px;
+      border: 2px dotted #20B2AA;
+  }
+
+
+  .three-column-grid {
+      display: grid;
+      grid-gap: 5px;
+      grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .three-column-grid__expand-two {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 0.01fr 1fr 0.01fr;
+  }
+
+  .five-column-grid {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  .center-grid {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 0.14fr; 
+    justify-content: center;
+  }
+
+  .two-column-grid {
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+  }
+
+  .two-column-grid .box {
+    display: grid;
+    column-gap: 8px;
+    grid-auto-flow: column;
+  }
+
+  .two-column-grid {
+      grid-gap: 5px;
+  }
+
+  .centered {
+      width: 200px;
+  }
+
+.grid-within-grid {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-gap: 5px;
+
+}
+
+.container .grid-within-grid {
+    display: grid;
+    column-gap: 8px;
+    grid-auto-flow: column;
+
+}
+
+
+.grid-within-grid .box {
+    display: grid;
+    column-gap: 8px;
+    grid-auto-flow: column;
+}
+
+
+ 
+
+
+
+
